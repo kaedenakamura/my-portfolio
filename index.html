@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaede Nakamura | Humanity & Technology Portfolio</title>
+
+    <!-- Tailwind CSS (デザイン用) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons (アイコン用) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- カスタムCSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="bg-slate-50 text-slate-900 overflow-x-hidden font-sans">
+
+    <!-- ナビゲーション -->
+    <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 py-5">
+        <div class="max-w-6xl mx-auto px-6 flex justify-between items-center text-indigo-600 font-black">
+            <div class="text-xl tracking-tighter uppercase">Kaede Nakamura</div>
+            <div class="hidden md:flex space-x-8 text-xs font-bold uppercase tracking-widest text-slate-400">
+                <a href="#principles" class="hover:text-indigo-600 transition">Principles</a>
+                <a href="#works" class="hover:text-indigo-600 transition">Works</a>
+                <a href="#career" class="hover:text-indigo-600 transition">Career</a>
+                <a href="#contact" class="hover:text-indigo-600 transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- ヒーローセクション -->
+        <header
+            class="relative min-h-screen flex flex-col justify-center items-center px-6 bg-white overflow-hidden text-center">
+            <div class="hero-bg-blur"></div>
+            <div class="max-w-4xl mx-auto z-10 reveal">
+                <div class="flex justify-center mb-10">
+                    <div class="profile-image-container bg-slate-100 flex items-center justify-center overflow-hidden">
+                        <!-- 画像ファイル：1764902943184.jpg -->
+                        <img src="images/1764902943184.jpg" alt="中村楓" class="w-full h-full object-cover"
+                            onerror="this.src='images/profile-placeholder.jpg'">
+                    </div>
+                </div>
+
+                <div
+                    class="inline-block px-4 py-1.5 mb-8 text-[10px] font-black tracking-[0.3em] text-indigo-600 uppercase bg-indigo-50 rounded-full border border-indigo-100">
+                    Professional Career Transformation
+                </div>
+
+                <h1 class="text-4xl md:text-7xl font-extrabold mb-8 leading-tight tracking-tighter text-slate-900">
+                    技術と想いで、<br /><span class="primary-gradient">人を支える。</span>
+                </h1>
+                <p class="text-lg md:text-xl text-slate-600 max-w-2xl mx-auto mb-12 font-light leading-loose">
+                    理学療法士としての専門性と、人材営業での人間力。<br />
+                    現場の課題を解決するための「プロトタイプ実装力」を磨くITエンジニアへ。
+                </p>
+                <div class="flex flex-col md:flex-row gap-4 justify-center">
+                    <a href="#works"
+                        class="bg-indigo-600 text-white px-10 py-4 rounded-2xl font-bold hover:bg-indigo-700 transition shadow-xl inline-flex items-center gap-2 justify-center">
+                        制作物を見る <i data-lucide="arrow-right" size="18"></i>
+                    </a>
+                    <a href="#contact"
+                        class="bg-white text-slate-900 border border-slate-200 px-10 py-4 rounded-2xl font-bold hover:bg-slate-50 transition shadow-sm">
+                        お問い合わせ
+                    </a>
+                </div>
+            </div>
+
+            <div class="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce text-slate-300">
+                <i data-lucide="chevron-down" size="32"></i>
+            </div>
+        </header>
+
+        <!-- 4つの指針 (Principles) -->
+        <section id="principles" class="py-32 px-6 max-w-5xl mx-auto">
+            <div class="text-center mb-20 reveal">
+                <h2 class="text-3xl md:text-4xl font-black mb-6 flex items-center justify-center gap-3">
+                    <i data-lucide="award" class="text-indigo-600" size="36"></i> 成長のための4つの指針
+                </h2>
+                <p class="text-slate-500 text-lg max-w-2xl mx-auto">
+                    未経験だからこそ、結果を出すために貫いてきた私の「軸」です。
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
+                <div
+                    class="reveal bg-white p-10 rounded-[2.5rem] shadow-sm flex gap-6 border border-slate-100 hover:shadow-lg transition-all group">
+                    <div
+                        class="bg-indigo-50 p-4 rounded-2xl h-fit w-fit text-indigo-600 shrink-0 group-hover:bg-indigo-600 group-hover:text-white transition-colors duration-500">
+                        <i data-lucide="search" size="28"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-xl mb-2 text-slate-800">圧倒的な探究心</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">
+                            首席卒業や自費でのエコー購入など、本質を追求する姿勢は誰にも負けません。IT学習でも技術の深掘りを惜しみません。</p>
+                    </div>
+                </div>
+                <div
+                    class="reveal bg-white p-10 rounded-[2.5rem] shadow-sm flex gap-6 border border-slate-100 hover:shadow-lg transition-all group">
+                    <div
+                        class="bg-indigo-50 p-4 rounded-2xl h-fit w-fit text-indigo-600 shrink-0 group-hover:bg-indigo-600 group-hover:text-white transition-colors duration-500">
+                        <i data-lucide="heart" size="28"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-xl mb-2 text-slate-800">高い利他精神</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">
+                            「誰かの役に立ちたい」という想いが最大の原動力。現場の不便を解消し、使う人が笑顔になるプロダクトを目指します。</p>
+                    </div>
+                </div>
+                <div
+                    class="reveal bg-white p-10 rounded-[2.5rem] shadow-sm flex gap-6 border border-slate-100 hover:shadow-lg transition-all group">
+                    <div
+                        class="bg-indigo-50 p-4 rounded-2xl h-fit w-fit text-indigo-600 shrink-0 group-hover:bg-indigo-600 group-hover:text-white transition-colors duration-500">
+                        <i data-lucide="target" size="28"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-xl mb-2 text-slate-800">結果への執着</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">
+                            環境が変わっても着実に成果を出す。営業時代の完遂力をITのフィールドでも再現し、組織に貢献します。</p>
+                    </div>
+                </div>
+                <div
+                    class="reveal bg-white p-10 rounded-[2.5rem] shadow-sm flex gap-6 border border-slate-100 hover:shadow-lg transition-all group">
+                    <div
+                        class="bg-indigo-50 p-4 rounded-2xl h-fit w-fit text-indigo-600 shrink-0 group-hover:bg-indigo-600 group-hover:text-white transition-colors duration-500">
+                        <i data-lucide="zap" size="28"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-xl mb-2 text-slate-800">素直な適応力</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">
+                            未経験だからこそ、周囲のアドバイスを100%吸収。組織にフィットしながら爆速で成長することを約束します。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 制作物セクション (Works) -->
+        <section id="works" class="py-32 px-6 max-w-6xl mx-auto text-center">
+            <div class="mb-20 reveal">
+                <h2 class="text-4xl font-black mb-4 tracking-tight uppercase">Featured Works</h2>
+                <p class="text-slate-500 text-lg">課題を抽出し、解決へと繋げるプロダクト開発の記録</p>
+            </div>
+            <div class="grid grid-cols-1 gap-12 text-left">
+                <!-- 予定調整くん Card -->
+                <div
+                    class="reveal project-card bg-white rounded-[3rem] overflow-hidden border border-slate-100 shadow-sm flex flex-col md:flex-row hover:shadow-xl transition-all duration-500">
+                    <div
+                        class="md:w-1/2 bg-slate-900 flex items-center justify-center p-12 relative overflow-hidden shrink-0">
+                        <div class="absolute inset-0 opacity-20 bg-gradient-to-br from-indigo-500 to-cyan-500"></div>
+                        <div class="relative z-10 text-center text-white">
+                            <i data-lucide="layout" size="100" class="text-indigo-400 mx-auto mb-4"></i>
+                            <h3 class="text-white font-bold text-3xl tracking-tighter">予定調整くん</h3>
+                            <p class="text-indigo-200 text-xs font-bold uppercase tracking-widest mt-2">Schedule
+                                Arranger</p>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2 p-10 md:p-16 flex flex-col justify-between bg-white">
+                        <div>
+                            <div class="flex gap-2 mb-6 text-[10px] font-bold uppercase">
+                                <span
+                                    class="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full border border-indigo-100">JavaScript</span>
+                                <span class="px-3 py-1 bg-slate-50 text-slate-500 rounded-full">Prototype</span>
+                            </div>
+                            <h4 class="text-2xl font-bold mb-4 text-slate-800">ITにのめりこむきっかけとなった試作アプリ。</h4>
+                            <p class="text-slate-500 leading-loose mb-8 text-sm md:text-base">
+                                理学療法士時代のスケジュール調整の煩雑さをヒントに、言語習得の学習過程で構築した個人向けプロトタイプです。
+                                データベースの構築やロジックの実装までを一貫して行い、「現場の負をITで解決する」エンジニアとしての第一歩です。
+                            </p>
+                        </div>
+                        <div class="mt-4">
+                            <!-- GitHub URL 連携済み -->
+                            <a href="https://github.com/kaedenakamura/schedule-arranger.git" target="_blank"
+                                class="inline-flex items-center gap-3 bg-slate-900 text-white px-8 py-4 rounded-xl font-bold hover:bg-slate-800 transition shadow-lg group">
+                                <i data-lucide="github" size="20"></i> GitHubでコードを確認 <i data-lucide="external-link"
+                                    size="16" class="opacity-50 group-hover:opacity-100 transition ml-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- キャリアロードマップ (Career Roadmap) -->
+        <section id="career" class="py-32 bg-white px-6">
+            <div class="max-w-4xl mx-auto text-center">
+                <div class="mb-16 reveal">
+                    <h2 class="text-4xl font-black mb-4 tracking-tight uppercase">Career Roadmap</h2>
+                    <p class="text-slate-500">挫折、探究、挑戦。すべての経験がエンジニアとして踏み出す私の「魂」です。</p>
+                </div>
+
+                <div id="career-container" class="space-y-4">
+                    <!-- JavaScriptでここにデータが挿入されます -->
+                </div>
+            </div>
+        </section>
+
+        <!-- スペシャルエピソードセクション (Echo) -->
+        <section id="special" class="py-32 px-6 max-w-6xl mx-auto">
+            <div class="bg-slate-900 rounded-[4rem] p-12 md:p-24 text-white overflow-hidden relative shadow-2xl reveal">
+                <div class="relative z-10 grid md:grid-cols-2 gap-16 items-center text-left">
+                    <div>
+                        <div
+                            class="flex items-center gap-3 text-indigo-400 mb-8 font-black tracking-widest text-[10px] uppercase">
+                            <i data-lucide="check-circle-2" size="20"></i> 私の持ち味
+                        </div>
+                        <h2 class="text-4xl md:text-5xl font-black mb-10 leading-tight tracking-tight text-white">
+                            「歩み寄る力」<br />
+                            魅力ある人間味こそ<br /><span
+                                class="text-indigo-400 underline decoration-indigo-800 underline-offset-8">私の本質</span>
+                        </h2>
+                        <p class="text-slate-400 text-lg leading-loose mb-12 font-light">
+                            「私の優しさは、単に親切にすることではなく、相手の『小さな変化』に気づき、先回りして歩み寄ることです。日常生活でも、相手の表情や声のトーンから、言葉にできないニーズを汲み取ることを大切にしています。この『観察眼』と『共感力』は、開発現場においても、ユーザーが本当に困っていることは何か、チームメンバーが何を求めているかを察知し、円滑な連携を生む力になると確信しています。」
+                        </p>
+                        <div class="flex flex-wrap gap-4 text-[10px] font-black uppercase tracking-widest">
+                            <span
+                                class="bg-white/10 px-6 py-2.5 rounded-full border border-white/10 text-white">人としての温もり</span>
+                            <span class="bg-white/10 px-6 py-2.5 rounded-full border border-white/10 text-white">観察力 &
+                                共感力</span>
+                        </div>
+                    </div>
+                    <div
+                        class="flex flex-col items-center justify-center text-indigo-400/40 bg-white/5 border-2 border-dashed border-white/20 rounded-[3rem] aspect-[4/3] relative z-10">
+                        <i data-lucide="camera" size="64" class="mb-4 text-white opacity-40"></i>
+                        <p class="text-xs font-bold tracking-widest uppercase text-white">Research & Evidence</p>
+                        <p class="text-[10px] opacity-60 mt-2 italic">(picture)</p>
+                    </div>
+                </div>
+                <div
+                    class="absolute top-0 right-0 -mr-20 -mt-20 w-80 h-80 bg-indigo-600 rounded-full blur-[120px] opacity-20">
+                </div>
+            </div>
+        </section>
+
+        <!-- 連絡先 (Contact) -->
+        <section id="contact" class="py-32 px-6 bg-slate-900 text-white text-center">
+            <div class="max-w-4xl mx-auto reveal">
+                <h2 class="text-4xl font-black mb-16 tracking-tighter uppercase font-bold text-white">Contact</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto mb-24">
+                    <a href="mailto:pvqv3150@yahoo.co.jp"
+                        class="flex flex-col items-center p-12 bg-white/5 rounded-[3rem] border border-white/10 hover:bg-white/10 transition-all duration-500 group">
+                        <i data-lucide="mail" class="mb-6 text-indigo-400 group-hover:scale-110 transition duration-500"
+                            size="48"></i>
+                        <span class="font-bold text-xl md:text-2xl text-white">pvqv3150@yahoo.co.jp</span>
+                    </a>
+                    <a href="tel:08045991514"
+                        class="flex flex-col items-center p-12 bg-white/5 rounded-[3rem] border border-white/10 hover:bg-white/10 transition-all duration-500 group text-white">
+                        <i data-lucide="phone"
+                            class="mb-6 text-emerald-400 group-hover:scale-110 transition duration-500" size="48"></i>
+                        <span class="font-bold text-xl md:text-2xl tracking-widest text-white">080-4599-1514</span>
+                    </a>
+                </div>
+                <p class="text-[10px] text-slate-500 uppercase tracking-[0.5em] font-black italic mt-20 opacity-40">
+                    Always Grateful. Always Learning.</p>
+                <p class="text-[10px] text-slate-500 uppercase tracking-[0.5em] font-black italic mt-2 opacity-40">I am
+                    who I am today because of us.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-12 bg-black text-center text-slate-700 text-[10px] font-black uppercase border-t border-white/5">
+        © 2026 Kaede Nakamura | Professional Journey: Medical, Sales to Tech
+    </footer>
+
+    <!-- カスタムJavaScript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

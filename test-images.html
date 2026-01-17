@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>画像テスト</title>
+</head>
+<body>
+    <h1>画像ファイル確認</h1>
+    <div style="border: 2px solid #ccc; padding: 20px; margin: 20px;">
+        <h2>プロフィール画像</h2>
+        <img src="images/profile.jpg" alt="プロフィール画像" style="max-width: 200px;">
+        <p>ファイルパス: images/profile.jpg</p>
+    </div>
+    
+    <div style="border: 2px solid #ccc; padding: 20px; margin: 20px;">
+        <h2>元の画像（存在する場合）</h2>
+        <img src="images/1764902943184.jpg" alt="元のプロフィール画像" style="max-width: 200px;" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+        <p style="display: none; color: red;">元の画像ファイルが見つかりません</p>
+        <p>ファイルパス: images/1764902943184.jpg</p>
+    </div>
+</body>
+</html>
