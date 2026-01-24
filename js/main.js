@@ -1,4 +1,4 @@
-// Lucide アイコンを有効化
+// アイコンを有効化
 document.addEventListener('DOMContentLoaded', function () {
     lucide.createIcons();
 });
@@ -83,7 +83,7 @@ function initializeCareerSection() {
     }
 }
 
-// スクロールに応じたふわっと表示 (Intersection Observer)
+// スクロールに応じたふわっと表示 
 function initializeScrollAnimations() {
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
