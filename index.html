@@ -40,7 +40,6 @@
             <div class="max-w-4xl mx-auto z-10 reveal">
                 <div class="flex justify-center mb-10">
                     <div class="profile-image-container bg-slate-100 flex items-center justify-center overflow-hidden">
-                        <!-- 画像ファイル：1764902943184.jpg -->
                         <img src="images/1764902943184.jpg" alt="中村楓" class="w-full h-full object-cover"
                             onerror="this.src='images/profile-placeholder.jpg'">
                     </div>
@@ -145,7 +144,6 @@
                 <p class="text-slate-500 text-lg">課題を抽出し、解決へと繋げるプロダクト開発の記録</p>
             </div>
             <div class="grid grid-cols-1 gap-12 text-left">
-                <!-- 予定調整くん Card -->
                 <div
                     class="reveal project-card bg-white rounded-[3rem] overflow-hidden border border-slate-100 shadow-sm flex flex-col md:flex-row hover:shadow-xl transition-all duration-500">
                     <div
@@ -153,9 +151,9 @@
                         <div class="absolute inset-0 opacity-20 bg-gradient-to-br from-indigo-500 to-cyan-500"></div>
                         <div class="relative z-10 text-center text-white">
                             <i data-lucide="layout" size="100" class="text-indigo-400 mx-auto mb-4"></i>
-                            <h3 class="text-white font-bold text-3xl tracking-tighter">予定調整くん</h3>
-                            <p class="text-indigo-200 text-xs font-bold uppercase tracking-widest mt-2">Schedule
-                                Arranger</p>
+                            <h3 class="text-white font-bold text-3xl tracking-tighter">リハビリ・コネクト</h3>
+                            <p class="text-indigo-200 text-xs font-bold uppercase tracking-widest mt-2">rehab-connect
+                            </p>
                         </div>
                     </div>
                     <div class="md:w-1/2 p-10 md:p-16 flex flex-col justify-between bg-white">
@@ -165,18 +163,23 @@
                                     class="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full border border-indigo-100">JavaScript</span>
                                 <span class="px-3 py-1 bg-slate-50 text-slate-500 rounded-full">Prototype</span>
                             </div>
-                            <h4 class="text-2xl font-bold mb-4 text-slate-800">ITにのめりこむきっかけとなった試作アプリ。</h4>
+                            <h4 class="text-2xl font-bold mb-4 text-slate-800">もっとこうしたい！を表現できると学んだ試作アプリ。</h4>
                             <p class="text-slate-500 leading-loose mb-8 text-sm md:text-base">
-                                理学療法士時代のスケジュール調整の煩雑さをヒントに、言語習得の学習過程で構築した個人向けプロトタイプです。
-                                データベースの構築やロジックの実装までを一貫して行い、「現場の負をITで解決する」エンジニアとしての第一歩です。
+                                臨床現場での「もっと患者さんと向き合いたい」という願いを叶えるため、記録の負を解消すべく開発した管理ツールです。元PTの視点で作った心地よいUIと、確かな品質を届けるための自動テストを両立させ、技術で誰かを笑顔にしたいという情熱を形にしました。
                             </p>
                         </div>
                         <div class="mt-4">
                             <!-- GitHub URL 連携済み -->
-                            <a href="https://github.com/kaedenakamura/schedule-arranger.git" target="_blank"
+                            <a href="https://github.com/kaedenakamura/rehab-connect" target="_blank"
                                 class="inline-flex items-center gap-3 bg-slate-900 text-white px-8 py-4 rounded-xl font-bold hover:bg-slate-800 transition shadow-lg group">
                                 <i data-lucide="github" size="20"></i> GitHubでコードを確認 <i data-lucide="external-link"
                                     size="16" class="opacity-50 group-hover:opacity-100 transition ml-1"></i>
+                            </a>
+                        </div>
+                        <div class="mt-4">
+                            <a href="https://rehab-connect-new.web.app" target="_blank"
+                                class="inline-flex items-center justify-center gap-3 bg-sky-500 text-white px-8 py-5 rounded-xl font-bold hover:bg-sky-600 transition shadow-xl shadow-sky-100 group">
+                                <i data-lucide="play-circle" size="24"></i> 実際にアプリを試してみる（DEMO）
                             </a>
                         </div>
                     </div>
@@ -193,44 +196,54 @@
                 </div>
 
                 <div id="career-container" class="space-y-4">
-                    <!-- JavaScriptでここにデータが挿入されます -->
                 </div>
             </div>
         </section>
 
-        <!-- スペシャルエピソードセクション (Echo) -->
-        <section id="special" class="py-32 px-6 max-w-6xl mx-auto">
-            <div class="bg-slate-900 rounded-[4rem] p-12 md:p-24 text-white overflow-hidden relative shadow-2xl reveal">
-                <div class="relative z-10 grid md:grid-cols-2 gap-16 items-center text-left">
-                    <div>
+        <!-- スペシャルエピソード -->
+        <section id="special" class="py-24 px-4 md:px-8 max-w-[1400px] mx-auto">
+            <div
+                class="bg-slate-900 rounded-[3rem] md:rounded-[5rem] p-8 md:p-16 lg:p-24 text-white overflow-hidden relative shadow-2xl reveal">
+                <div class="relative z-10 grid grid-cols-1 lg:grid-cols-[0.8fr_1.2fr] gap-12 lg:gap-24 items-center">
+
+                    <!-- 左側：メッセージエリア -->
+                    <div class="reveal">
                         <div
                             class="flex items-center gap-3 text-indigo-400 mb-8 font-black tracking-widest text-[10px] uppercase">
                             <i data-lucide="check-circle-2" size="20"></i> 私の持ち味
                         </div>
-                        <h2 class="text-4xl md:text-5xl font-black mb-10 leading-tight tracking-tight text-white">
+                        <h2 class="text-4xl md:text-6xl font-black mb-10 leading-tight tracking-tight text-white">
                             「歩み寄る力」<br />
                             魅力ある人間味こそ<br /><span
                                 class="text-indigo-400 underline decoration-indigo-800 underline-offset-8">私の本質</span>
                         </h2>
-                        <p class="text-slate-400 text-lg leading-loose mb-12 font-light">
-                            「私の優しさは、単に親切にすることではなく、相手の『小さな変化』に気づき、先回りして歩み寄ることです。日常生活でも、相手の表情や声のトーンから、言葉にできないニーズを汲み取ることを大切にしています。この『観察眼』と『共感力』は、開発現場においても、ユーザーが本当に困っていることは何か、チームメンバーが何を求めているかを察知し、円滑な連携を生む力になると確信しています。」
+                        <p class="text-slate-400 text-lg leading-loose mb-12 font-light max-w-lg">
+                            「私の優しさは、単に親切にすることではなく、相手の『小さな変化』に気づき、先回りして歩み寄ることです。日常生活でも、相手の表情や声のトーンから、言葉にできないニーズを汲み取ることを大切にしています。」
                         </p>
                         <div class="flex flex-wrap gap-4 text-[10px] font-black uppercase tracking-widest">
                             <span
-                                class="bg-white/10 px-6 py-2.5 rounded-full border border-white/10 text-white">人としての温もり</span>
-                            <span class="bg-white/10 px-6 py-2.5 rounded-full border border-white/10 text-white">観察力 &
-                                共感力</span>
+                                class="bg-white/10 px-6 py-2.5 rounded-full border border-white/10 text-white shadow-sm">人としての温もり</span>
+                            <span
+                                class="bg-white/10 px-6 py-2.5 rounded-full border border-white/10 text-white shadow-sm">観察力
+                                & 共感力</span>
                         </div>
                     </div>
-                    <div
-                        class="flex flex-col items-center justify-center text-indigo-400/40 bg-white/5 border-2 border-dashed border-white/20 rounded-[3rem] aspect-[4/3] relative z-10">
-                        <i data-lucide="camera" size="64" class="mb-4 text-white opacity-40"></i>
-                        <p class="text-xs font-bold tracking-widest uppercase text-white">Research & Evidence</p>
-                        <p class="text-[10px] opacity-60 mt-2 italic">(picture)</p>
+
+                    <!-- 右側：画像エリア -->
+                    <div class="relative z-10 w-full lg:translate-x-12">
+                        <div
+                            class="rounded-[2.5rem] md:rounded-[4rem] aspect-video lg:aspect-[16/9] overflow-hidden border border-white/10 shadow-[0_0_50px_rgba(79,70,229,0.3)] relative group">
+                            <img src="images/IMG_20260124_232747.jpg" alt="Research & Evidence"
+                                class="w-full h-full object-cover object-center transition-transform duration-[1500ms] group-hover:scale-105">
+                        </div>
+                        <div class="absolute -inset-20 bg-indigo-500/15 blur-[100px] -z-10 rounded-full"></div>
                     </div>
                 </div>
                 <div
-                    class="absolute top-0 right-0 -mr-20 -mt-20 w-80 h-80 bg-indigo-600 rounded-full blur-[120px] opacity-20">
+                    class="absolute -bottom-20 -left-20 w-[500px] h-[500px] bg-indigo-600 rounded-full blur-[150px] opacity-10">
+                </div>
+                <div
+                    class="absolute -top-20 -right-20 w-[500px] h-[500px] bg-cyan-600 rounded-full blur-[150px] opacity-10">
                 </div>
             </div>
         </section>
@@ -239,25 +252,35 @@
         <section id="contact" class="py-32 px-6 bg-slate-900 text-white text-center">
             <div class="max-w-4xl mx-auto reveal">
                 <h2 class="text-4xl font-black mb-16 tracking-tighter uppercase font-bold text-white">Contact</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto mb-24">
+                <div class="max-w-xl mx-auto mb-24">
                     <a href="mailto:pvqv3150@yahoo.co.jp"
-                        class="flex flex-col items-center p-12 bg-white/5 rounded-[3rem] border border-white/10 hover:bg-white/10 transition-all duration-500 group">
-                        <i data-lucide="mail" class="mb-6 text-indigo-400 group-hover:scale-110 transition duration-500"
-                            size="48"></i>
-                        <span class="font-bold text-xl md:text-2xl text-white">pvqv3150@yahoo.co.jp</span>
-                    </a>
-                    <a href="tel:08045991514"
-                        class="flex flex-col items-center p-12 bg-white/5 rounded-[3rem] border border-white/10 hover:bg-white/10 transition-all duration-500 group text-white">
-                        <i data-lucide="phone"
-                            class="mb-6 text-emerald-400 group-hover:scale-110 transition duration-500" size="48"></i>
-                        <span class="font-bold text-xl md:text-2xl tracking-widest text-white">個人情報保護の為、現在非公開</span>
+                        class="flex flex-col items-center p-12 bg-white/5 rounded-[3.5rem] border border-white/10 hover:bg-white/10 hover:border-indigo-500/50 transition-all duration-500 group shadow-2xl backdrop-blur-sm">
+
+                        <div
+                            class="mb-8 p-6 bg-indigo-500/10 rounded-3xl group-hover:bg-indigo-500/20 transition-colors duration-500">
+                            <i data-lucide="mail" class="text-indigo-400 group-hover:scale-110 transition duration-500"
+                                size="48"></i>
+                        </div>
+
+                        <span class="text-slate-400 text-sm font-bold uppercase tracking-[0.3em] mb-3">Send an
+                            email</span>
+                        <span class="font-bold text-xl md:text-3xl text-white break-all">pvqv3150@yahoo.co.jp</span>
+
+                        <div
+                            class="mt-8 flex items-center gap-2 text-indigo-400 text-xs font-bold uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-all duration-500 translate-y-2 group-hover:translate-y-0">
+                            Get in touch <i data-lucide="arrow-right" size="14"></i>
+                        </div>
                     </a>
                 </div>
-                <p class="text-[10px] text-slate-500 uppercase tracking-[0.5em] font-black italic mt-20 opacity-40">
-                    Always Grateful. Always Learning.</p>
-                <p class="text-[10px] text-slate-500 uppercase tracking-[0.5em] font-black italic mt-2 opacity-40">I am
-                    who I am today because of us.</p>
-            </div>
+
+                <div class="mt-32 space-y-6">
+                    <p class="text-[11px] md:text-sm text-indigo-300 uppercase tracking-[0.6em] font-black reveal">
+                        Always Grateful. Always Learning.
+                    </p>
+                    <p class="text-xs md:text-lg text-slate-400 font-light italic tracking-[0.2em] reveal">
+                        I am who I am today because of the people around me.
+                    </p>
+                </div>
         </section>
     </main>
 
