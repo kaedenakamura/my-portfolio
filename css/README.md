@@ -1,4 +1,4 @@
-ポートフォリオ
+Myポートフォリオ
 
 🌿 技術の先に、体温の通った解決を。
 
@@ -15,5 +15,5 @@
 今、磨いているツール（技術スキル）「現場の負」を温かな解決に変えるために、以下の技術を学んでいます。 フロントエンド：心地よい手触りを作る（HTML5、CSS3、JavaScript React Recharts） バックエンド：信頼の土台を作る（Node.js、Express、hono　Firebase） データベース：大切な情報を預かる（PostgreSQL、Prisma Firestore） インフラ：安定した居場所を作る（Docker、Docker Compose）品質への誠実さ：確かな安心を届ける
 (Vitest)
 
-制作物への想いリハビリ・コネクト (rehab-connect)　https://rehab-connect-new.web.app/ 
+制作物への想いリハビリ・コネクト (rehab-connect)　https://rehab-connect-new.web.app/
 かつての仲間たちは、リハビリ専用の患者管理ソフトがなく、もっと前の大切な仕事（ケア）に集中できるように……そんな願いを込めて作っているフルスタックアプリです。
